@@ -1,0 +1,16 @@
+Is folder me apni dress photo rakho.
+
+Aapne jo Peacock wali photo chat me bheji hai, use yahan is naam se save karo:
+  images/peacock-lahanga.jpg
+
+Steps (mobile/PC):
+1. Chat wali photo download karo
+2. Uska naam badal kar `peacock-lahanga.jpg` rakho
+3. Is `images` folder me paste karo
+4. Site refresh karo — product + hero me asli photo dikhegi
+
+Tab tak 🦚 emoji dikhega taaki site toote nahi.
+
+Nayi photo add karni ho to:
+- photo ko images/ me rakho (jaise haldi-lahanga.jpg)
+- index.html me PRODUCTS me naya line jodo with img:"images/haladi-lahanga.jpg"
