@@ -12,6 +12,7 @@ export default function Header() {
     { href: "/agents", en: "AI Agents", hi: "AI Agents" },
     { href: "/about", en: "About", hi: "About" },
     { href: "/contact", en: "Contact", hi: "Contact" },
+    { href: "/enroll", en: "Enroll", hi: "Enroll" },
   ];
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-navy/95 backdrop-blur">

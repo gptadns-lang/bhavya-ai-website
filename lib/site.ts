@@ -3,6 +3,7 @@ export const siteConfig = {
   tagline: "Learn AI | Build Skills | Create Opportunities",
   founder: "Dinesh Kumar Gupta",
   phones: ["9462716760", "9772549136"],
+  whatsappNumber: "919772549136",
   email: "",
   // Social links — baad me update karna hai, yahi se change hoga
   social: {

@@ -38,12 +38,11 @@ export default function CoursesPage() {
             </ul>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href={siteConfig.social.whatsapp}
-                target="_blank"
+                href="/enroll"
                 className="rounded-full bg-gold px-6 py-3 text-sm font-bold text-navy"
               >
                 {c.price === 0
-                  ? t("Get Free Course on WhatsApp", "Free Course WhatsApp par Payein")
+                  ? t("Get Free Course", "Free Course Payein")
                   : t(`Enroll Now — ₹${c.price}`, `Enroll Karein — ₹${c.price}`)}
               </a>
               {siteConfig.phones.map((p) => (

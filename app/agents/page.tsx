@@ -20,8 +20,8 @@ export default function AgentsPage() {
             <p className="mt-2 text-sm text-white/70">{lang === "hi" ? a.descHi : a.descEn}</p>
             <p className="mt-3 font-semibold text-gold">{lang === "hi" ? a.priceHi : a.priceEn}</p>
             <div className="mt-5 flex flex-wrap gap-3">
-              <a href={siteConfig.social.whatsapp} target="_blank" className="rounded-full bg-gold px-6 py-2.5 text-sm font-bold text-navy">
-              {t("Order on WhatsApp — ₹10,000 (COD)", "WhatsApp par Order Karein — ₹10,000 (COD)")}
+              <a href="/enroll" className="rounded-full bg-gold px-6 py-2.5 text-sm font-bold text-navy">
+              {t("Order Now — ₹10,000 (COD)", "Order Karein — ₹10,000 (COD)")}
               </a>
               <a href={`tel:+91${siteConfig.phones[0]}`} className="rounded-full border border-white/20 px-6 py-2.5 text-sm">
                 Call +91 {siteConfig.phones[0]}
