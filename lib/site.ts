@@ -10,8 +10,8 @@ export const siteConfig = {
     youtubeHandle: "@dineshsir-86",
     whatsapp: "https://chat.whatsapp.com/JMKuTfd4cwm0vSMDmHrZRj",
     whatsappLabel: "Join the Bhavya AI community",
-    telegram: "#",
-    instagram: "#",
+    telegram: "https://t.me/fbhad",
+    instagram: "https://www.instagram.com/dineshgupta1988/",
     instagramHandle: "@dineshgupta1988",
     facebook: "https://www.facebook.com/dineshgupta1988",
     facebookName: "dineshgupta1988",
@@ -67,6 +67,38 @@ export const courses = [
   },
 ];
 
+export const videos = [
+  {
+    id: "tn7SMD3RgMg",
+    titleHi: "AI क्या है और कैसे काम करता है? | AI Course Class 01",
+    titleEn: "What is AI and how does it work? | AI Course Class 01",
+  },
+  {
+    id: "d8LMlOorIo4",
+    titleHi: "AI Course Class 01 (Full Video) — AI को आसान भाषा में समझो",
+    titleEn: "AI Course Class 01 (Full Video) — Learn AI in simple language",
+  },
+  {
+    id: "G0mTUjtfZ48",
+    titleHi: "AI से पैसे कैसे कमाएँ? घर से शुरू करने वाली 4 स्किल",
+    titleEn: "How to earn money with AI? 4 skills to start from home",
+  },
+  {
+    id: "k-z_yy8iEbc",
+    titleHi: "सरपंच चुनाव AI प्रचार वीडियो — Demo (2800+ views)",
+    titleEn: "Sarpanch Election AI Campaign Video — Demo",
+  },
+  {
+    id: "UjmWBaikIqE",
+    titleHi: "नगर पालिका चुनाव 2D Animation Video — Demo (4800+ views)",
+    titleEn: "Nagar Palika Election 2D Animation Video — Demo",
+  },
+  {
+    id: "LcaDNBVZ9CY",
+    titleHi: "AI Photo बनाने से पहले ये Privacy Setting OFF करें!",
+    titleEn: "Turn OFF this privacy setting before making AI photos!",
+  },
+];
 export const agents = [
   {
     id: "school-management-app",

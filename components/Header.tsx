@@ -8,6 +8,7 @@ export default function Header() {
   const nav = [
     { href: "/", en: "Home", hi: "Home" },
     { href: "/courses", en: "Courses", hi: "Courses" },
+    { href: "/videos", en: "Videos", hi: "Videos" },
     { href: "/agents", en: "AI Agents", hi: "AI Agents" },
     { href: "/about", en: "About", hi: "About" },
     { href: "/contact", en: "Contact", hi: "Contact" },

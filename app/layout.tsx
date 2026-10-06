@@ -1,10 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PwaRegister from "@/components/PwaRegister";
 
 const SITE_URL = "https://bhavya-ai-research-centre.web.app";
+
+export const viewport: Viewport = {
+  themeColor: "#0B1F3A",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -99,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body className="bg-navy text-white antialiased">
+        <PwaRegister />
         <LanguageProvider>
           <Header />
           <main className="min-h-[70vh]">{children}</main>

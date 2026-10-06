@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://bhavya-ai-research-centre.web.app";
-  const pages = ["", "/courses", "/agents", "/about", "/contact"];
+  const pages = ["", "/courses", "/videos", "/agents", "/about", "/contact"];
   return pages.map((p) => ({
     url: `${base}${p}`,
     lastModified: new Date(),

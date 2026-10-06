@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useLang } from "@/lib/i18n";
-import { siteConfig, courses, agents } from "@/lib/site";
+import { siteConfig, courses, agents, videos } from "@/lib/site";
+import InstallAppButton from "@/components/InstallAppButton";
+import VideoCard from "@/components/VideoCard";
 
 export default function HomePage() {
   const { t, lang } = useLang();
@@ -34,6 +36,7 @@ export default function HomePage() {
             <a href={s.whatsapp} target="_blank" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">
               {t("Join WhatsApp Community", "WhatsApp Community Join Karein")}
             </a>
+            <InstallAppButton />
           </div>
           <div className="mt-6 flex flex-wrap gap-2 text-xs">
             <a href={s.youtube} target="_blank" className="rounded-full bg-white/10 px-3 py-1.5">YouTube {s.youtubeHandle}</a>
@@ -84,6 +87,23 @@ export default function HomePage() {
                   </Link>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* VIDEOS */}
+      <section className="border-y border-white/10 bg-white/[0.03]">
+        <div className="mx-auto max-w-6xl px-4 py-12">
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold sm:text-3xl">{t("Latest YouTube Videos", "Latest YouTube Videos")}</h2>
+            <Link href="/videos" className="rounded-full border border-gold px-4 py-1.5 text-xs font-bold text-gold">
+              {t("View All", "Sab Dekhein")}
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {videos.slice(0, 3).map((v) => (
+              <VideoCard key={v.id} id={v.id} title={lang === "hi" ? v.titleHi : v.titleEn} />
             ))}
           </div>
         </div>
