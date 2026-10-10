@@ -12,6 +12,8 @@ export const siteConfig = {
     whatsapp: "https://chat.whatsapp.com/JMKuTfd4cwm0vSMDmHrZRj",
     whatsappLabel: "Join the Bhavya AI community",
     telegram: "https://t.me/fbhad",
+    telegramChatId: "@fbhad",
+    telegramBotToken: "",
     instagram: "https://www.instagram.com/dineshgupta1988/",
     instagramHandle: "@dineshgupta1988",
     facebook: "https://www.facebook.com/dineshgupta1988",
