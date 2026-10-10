@@ -8,10 +8,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#0B1F3A",
-        gold: "#D4AF37",
+        navy: "#060D1A",
+        gold: "#F5B301",
         offwhite: "#F5F7FA",
-        electric: "#2F80ED",
+        electric: "#38BDF8",
       },
       fontFamily: {
         sans: ["Inter", "Poppins", "Noto Sans", "system-ui", "sans-serif"],

@@ -8,7 +8,7 @@ import PwaRegister from "@/components/PwaRegister";
 const SITE_URL = "https://bhavya-ai-research-centre.web.app";
 
 export const viewport: Viewport = {
-  themeColor: "#0B1F3A",
+  themeColor: "#060D1A",
 };
 
 export const metadata: Metadata = {

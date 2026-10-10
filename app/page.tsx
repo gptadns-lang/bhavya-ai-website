@@ -21,7 +21,7 @@ export default function HomePage() {
           </span>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight sm:text-5xl">
             {t("Learn AI. Build Skills.", "AI Seekho. Skills Banao.")}{" "}
-            <span className="text-gold">{t("Create Opportunities.", "Opportunities Banao.")}</span>
+            <span className="bg-gradient-to-r from-gold to-electric bg-clip-text text-transparent">{t("Create Opportunities.", "Opportunities Banao.")}</span>
           </h1>
           <p className="mt-4 max-w-xl text-white/70">
             {t(
