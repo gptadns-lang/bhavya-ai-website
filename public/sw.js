@@ -1,4 +1,4 @@
-const CACHE = "bhavya-ai-v1";
+const CACHE = "bhavya-ai-v2";
 const CORE = [
   "/",
   "/courses",
